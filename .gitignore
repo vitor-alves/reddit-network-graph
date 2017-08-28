@@ -101,4 +101,3 @@ ENV/
 .mypy_cache/
 
 notes.txt
-search_output.csv

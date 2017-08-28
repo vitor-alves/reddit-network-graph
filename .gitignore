@@ -99,6 +99,3 @@ ENV/
 
 # mypy
 .mypy_cache/
-
-notes.txt
-search_output.csv

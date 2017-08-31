@@ -37,7 +37,7 @@ get_access_token()
 
 output = open('search_output.csv', 'w')
 past_subreddits = []
-subreddits_list = ['opensource']
+subreddits_list = ['90sdesign']
 iterations = 0
 while(len(subreddits_list) != 0):
     # Get a random subreddit name from subreddits_list

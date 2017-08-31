@@ -1,6 +1,6 @@
 import csv
 
-csv_input = open('search_output_completo.csv', 'r')
+csv_input = open('search_output_completo1.csv', 'r')
 csv_reader = csv.reader(csv_input)
 nodes_list = []
 edge_list = []
@@ -43,7 +43,7 @@ def remove_self_loop_edges():
 			edge_list.remove(edge)
 
 generate_edges()
-#remove_self_loop_edges()
-#remove_mutual_edges()
+remove_self_loop_edges()
+remove_mutual_edges()
 generate_nodes_file()
 generate_edges_file()
